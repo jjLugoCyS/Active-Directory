@@ -45,5 +45,19 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 8: Start Splunk*<br>
   ![8  Splunk on start up command](https://github.com/user-attachments/assets/f88fd547-ba14-443d-a9a8-13233d3545d3)<br>
 *Ref 9: Splunk on startup*<br>
-6. 
-
+6. Install Splunk Universal Forwarder on target machine. First assign a static IP to target machine on the NAT network created earlier.<br>
+  ![9  Target machine static IP](https://github.com/user-attachments/assets/f71fd8fe-021b-4fb6-9e4d-8ed34d6b043e)<br>
+*Ref 10: Target Machine Static IP*<br>
+7. Find the SUF input.conf file on the target machine and modify it to gather telemetry.<br>
+  ![10  splunk forwarder input conf file edit](https://github.com/user-attachments/assets/5edc1311-fd87-4893-aa31-3f1118516802)<br>
+*Ref 11: input.conf file*<br>
+8. Log into Splunk and navigate to indexes, click on new index button and create an endpoint index.<br>
+  ![11  New endpoint index](https://github.com/user-attachments/assets/48653e4a-cf82-462b-b71e-1f4caaa4fcc6)<br>
+*Ref 12: New endpoint index*<br>
+9. Navigate to forwarding and receiving > configure receiving > new receiving port and enter a port number.<br>
+  ![12  new receiving port](https://github.com/user-attachments/assets/59c8d242-5f27-4830-bba4-a882d3e0122b)<br>
+*Ref 13: New receiving port*<br>
+10. Click apps> search & reporting and type in "index=endpoint"<br>
+  ![13  index search](https://github.com/user-attachments/assets/3f059198-3b73-47b7-8289-c0fa509b2614)<br>
+*Ref 14: Index Search*<br>
+11. Using the same steps as the target machine, install sysmon and splunk on the windows server.
