@@ -95,4 +95,19 @@ The Detection Lab project aimed to establish a controlled environment for simula
   ![25  New user Password](https://github.com/user-attachments/assets/b9dc81b8-9e12-4f56-8628-3f26fe6ced5d)<br>
 *Ref 26: New User Password*<br>
 21. Create Anothe new OU and User.
-22. 
+22. Spin up the Windows 10 target machine, Navigate to "advanced systen settings". Click Computer name and change, select domain. If you get an error go to "network and internet settings" > change adapter options > right click adapter and select properties > click into IPv4 properties, xhange the DNS server to point to the Domain Controller.<br>
+  ![26  Wins 10 machine ipv4 domain](https://github.com/user-attachments/assets/35a40ba1-4435-45fd-885c-d44f009ad65a)<br>
+*Ref 27: IPv4 Properties*<br>
+23. To check if the change is succesful. Open command prompt and type ipconfig /all to see the DNS server.<br>
+  ![27  win 10 machine dns check](https://github.com/user-attachments/assets/23bd1372-c4f9-4acb-96bc-f6d8093539aa)<br>
+*Ref 28: DNS check*<br>
+24. Log into the Domain now with the admin account. It will then require a restart.<br>
+  ![28  Domain login](https://github.com/user-attachments/assets/abe9aabf-064d-4d34-a2ee-e42b03196a02)<br>
+*Ref 29: Domain login*<br>
+  ![29  Domain login success](https://github.com/user-attachments/assets/01b81556-225f-430f-8c8c-40f6ccf538b9)<br>
+*Ref 30: Domain login success*<br>
+25. Log back in with a domain User created before.<br>
+  ![30  win 10 machine sign in to other name pointed to domain](https://github.com/user-attachments/assets/4896e644-3563-4947-afdd-0ec1a2467540)<br>
+*Ref 31: Sign in pointed to Domain*<br>
+  ![31  login to jay smith](https://github.com/user-attachments/assets/1a58ef16-7f45-4d45-b7b1-735061ac6d8b)<br>
+*Ref 32: User login*<br>
