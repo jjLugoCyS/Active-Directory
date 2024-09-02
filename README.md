@@ -61,3 +61,16 @@ The Detection Lab project aimed to establish a controlled environment for simula
   ![13  index search](https://github.com/user-attachments/assets/3f059198-3b73-47b7-8289-c0fa509b2614)<br>
 *Ref 14: Index Search*<br>
 11. Using the same steps as the target machine, install sysmon and splunk on the windows server.
+12. Set a static IP on the Windows Server.<br>
+  ![14  Win Server static IP](https://github.com/user-attachments/assets/d6c3c4ad-a5a7-4498-a6bf-c59236e4a5be)<br>
+*Ref 15: Windows Server Static IP*<br>
+13. Go to the Server Manager and click manage > add Roles and Features > click next.<br>
+  ![15  wins server manager roles and feats](https://github.com/user-attachments/assets/fc6fde08-8c38-4230-aa7a-e49c05d4c996)<br>
+*Ref 16: Manager, Roles and feats*<br>
+14. Select Role-based or Feature-based.<br>
+  ![16 roles and feeats server selection](https://github.com/user-attachments/assets/bd9b3317-ceb6-428f-a218-3ee6782e1345)<br>
+*Ref 17: Roles and Feats. Server Selection<br>
+15. Select Active Directory Domain Services and install. <br>
+  ![17  R+F ADDS](https://github.com/user-attachments/assets/64b53b4e-2998-4c01-b4f1-5b7717d55fee)<br>
+*Ref 18: Active Directory Domain Services*<br>
+16.
