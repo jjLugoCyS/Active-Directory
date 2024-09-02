@@ -79,4 +79,20 @@ The Detection Lab project aimed to establish a controlled environment for simula
 17. The paths screen indicates where the critical files for the domain are stored (ie: password hashes) that attackers want because it contains everything they need. If these files are unexpectedly altered/accessed then its safe to bet that your controller has been compromised. After all the verifications click install.<br>
   ![19  Paths to important server files](https://github.com/user-attachments/assets/c4e3bdf4-997c-4e28-b5f7-94fb2f0bdee4)<br>
 *Ref 20: Paths to important server files*<br>
-18. 
+18. Log in and go to Server Manager, click tools and select Active Directory Users and Computers. This is where objects can be created.<br>
+  ![20  AD users and computers](https://github.com/user-attachments/assets/c621b37d-3a4f-4880-8e26-47944b599f9c)<br>
+*Ref 21: AD Users and Computers*<br>
+19. Expand Domain and click built in to see the automatically created groups. Right click domain > select New > click Orginizational Unit.<br>
+  ![21  New Orginizational Unit](https://github.com/user-attachments/assets/fc021bec-6d3f-4659-98ec-89fcf7e6320f)<br>
+*Ref 22: New OU*<br>
+  ![22  New ou name](https://github.com/user-attachments/assets/d00fee5f-6b0a-49dd-baa0-a39cd4266a53)<br>
+*Ref 23: Name the new OU*<br>
+20. Right click the newly created OU > select New > click User. Give it a name and password <br>
+  ![23  New user in OU](https://github.com/user-attachments/assets/6b57bd2c-7c15-46c6-8c7d-e7f8229a1c3c)
+*Ref 24: New User in OU*<br>
+  ![24  New user name](https://github.com/user-attachments/assets/988dfc16-0f26-4f02-a017-47c58a52ff82)<br>
+*Ref 25: New User name*<br>
+  ![25  New user Password](https://github.com/user-attachments/assets/b9dc81b8-9e12-4f56-8628-3f26fe6ced5d)<br>
+*Ref 26: New User Password*<br>
+21. Create Anothe new OU and User.
+22. 
