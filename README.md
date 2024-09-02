@@ -73,4 +73,10 @@ The Detection Lab project aimed to establish a controlled environment for simula
 15. Select Active Directory Domain Services and install. <br>
   ![17  R+F ADDS](https://github.com/user-attachments/assets/64b53b4e-2998-4c01-b4f1-5b7717d55fee)<br>
 *Ref 18: Active Directory Domain Services*<br>
-16.
+16. In Server Manager click on the flag icon at the top. Click promote this server to a domain controller. Since this is a brand new domain select add a new forest. Name it and create a new password.<br>
+  ![18  win server root domain](https://github.com/user-attachments/assets/7c2ddbbc-841a-429a-922d-44920e3deccf)<br>
+*Ref 19: New forest*
+17. The paths screen indicates where the critical files for the domain are stored (ie: password hashes) that attackers want because it contains everything they need. If these files are unexpectedly altered/accessed then its safe to bet that your controller has been compromised. After all the verifications click install.<br>
+  ![19  Paths to important server files](https://github.com/user-attachments/assets/c4e3bdf4-997c-4e28-b5f7-94fb2f0bdee4)<br>
+*Ref 20: Paths to important server files*<br>
+18. 
