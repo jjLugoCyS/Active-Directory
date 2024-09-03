@@ -111,3 +111,10 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 31: Sign in pointed to Domain*<br>
   ![31  login to jay smith](https://github.com/user-attachments/assets/1a58ef16-7f45-4d45-b7b1-735061ac6d8b)<br>
 *Ref 32: User login*<br>
+26. Spin up a Kali machine and setup a stativ IP for it. Right-click ethernet icon > click edit connections > select the first profile > click the cog icon > click IPv4 settings > save. Check in terminal with "ip a". If the IP was not changed Disconnect and reconnect the IP profile.<br>
+  ![32  Kali edit connections](https://github.com/user-attachments/assets/65dfcbff-e0da-4fc3-b104-75e7499498e8)<br>
+*Ref 33: Kali edit connections*<br
+  ![33  Kali Ipv4 settings](https://github.com/user-attachments/assets/a4a38e0c-7f7c-483e-80fb-8e6a1718d136)<br>
+*Ref 34: Kali IPv3 settings*<br>
+  ![34  Kali ip a](https://github.com/user-attachments/assets/650b3b76-3623-4ec9-9ced-8d3d3fa8115b)<br>
+*Ref 35: Keli ip a*<br>
