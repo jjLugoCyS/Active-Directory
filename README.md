@@ -147,4 +147,9 @@ The Detection Lab project aimed to establish a controlled environment for simula
 33. Crowbar -b signals brute force through RDP, -u to enter the target user, -C for the specified password list, and -s to enter the source IP.<br>
   ![45  kali start bruteforce](https://github.com/user-attachments/assets/a264de3b-88cb-41a9-a21d-7b15a84d0f9c)<br>
 *Ref 46: Start brute force*<br>
-34. 
+34. On <a href="https://www.splunk.com/">Splunk</a>, click Search and Reporting > search " index=endpoint tsmith " and press enter. Find the EventCode showing the crowbar attack. by click on the Event id will filter it in Splunk where we can see the attempts that happened in quick succession, signalling an attack. If the Event id is googled, a decription of the type of attack will come up<br>
+  ![46  win target machine event count crowbar attack](https://github.com/user-attachments/assets/5730eac6-8b02-46be-bbb8-c2151d654881)<br>
+*Ref 47: Target amachine crowbar attack count*<br>
+  ![47  event id description](https://github.com/user-attachments/assets/3a1fad3a-2c07-4ee1-afff-2134706fd8a2)<br>
+*Ref 48: Event id description*<br>
+35. 
