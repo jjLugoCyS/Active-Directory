@@ -152,4 +152,24 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 47: Target amachine crowbar attack count*<br>
   ![47  event id description](https://github.com/user-attachments/assets/3a1fad3a-2c07-4ee1-afff-2134706fd8a2)<br>
 *Ref 48: Event id description*<br>
-35. 
+35. Open PowerShell with administrative privileges on the target Windows machine > login with the administrator account > type in "Set-ExecutionPolicy Bypass CurrentUser".<br>
+  ![48  PS execution policy](https://github.com/user-attachments/assets/ff4b7ae9-e4ca-44a9-ac01-f88ee36ea764)<br>
+*Ref 49: PS execution policy*<br>
+36. Set an exclusion for the C: drive so that defender does not delete any of the <a href="https://github.com/redcanaryco/atomic-red-team">Atomic Red Team</a> files. Go to add or remove exclusion under exclusions in virus & threat protection, add an exclusion for folder, click the C: drive and click select folder.<br>
+  ![49  add an exclusion folder](https://github.com/user-attachments/assets/cbb8a65f-72a3-42a6-b2e4-e6b2b7704672)<br>
+*Ref 50: Add exclusion folder*<br>
+  ![50  C drive exclusion](https://github.com/user-attachments/assets/250bfaf5-b71f-4208-b10a-2210da7febd7)<br>
+*Ref 51: Exclude C: drive*<br>
+37. In PowerShell type in " IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); Install-AtomicRedTeam -getAtomics".<br>
+38. Go to Atomic Red Team directory > click atomics > the folders seen here correspond to the <a href="https://attack.mitre.org/">Mitre Att&ck</a> framework.<br>
+39. Back in PowerShell type in "Invoke AtomicTest T1136.001"/<br>
+  ![51  Atomic Test T1136 001](https://github.com/user-attachments/assets/ab71364d-c131-48fe-a544-825c70c957cd)<br>
+*Ref 52: AtomicTest T1136.001*<br>
+40. Go back to Splunk and sear for "NewLocalUser" account, If no telemetry try another attack.<br>
+41. In PowerShell type in the Invoke command this time with T1059.001. If Defender caught somethings go to Splunk, change the time to last 15 minutes and NewLocalUser shows up.<br>
+  ![52  ART new account generation](https://github.com/user-attachments/assets/423473be-324d-4f7d-b1a4-8d80a7387c67)<br>
+*Ref 53: ART new account*<br>
+  ![53  Another ART command](https://github.com/user-attachments/assets/e4e64e17-aa81-4410-bbaa-78efef830877)<br>
+*Ref 54: Second ART command*<br>
+  ![54  Splunk newlocaluser](https://github.com/user-attachments/assets/bc8bbcd1-462c-454d-92bf-4c843ad027d2)<br>
+*Ref 55: Splunk NewLocalUser*<br>
