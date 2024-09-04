@@ -118,3 +118,24 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 34: Kali IPv3 settings*<br>
   ![34  Kali ip a](https://github.com/user-attachments/assets/650b3b76-3623-4ec9-9ced-8d3d3fa8115b)<br>
 *Ref 35: Keli ip a*<br>
+27. Update and Upgrade, then create a new directory.<br>
+  ![35  kali mkdir](https://github.com/user-attachments/assets/323bbadc-533f-4288-890a-36483a4846c0)<br>
+*Ref 36: Kali mkdir*<br>
+28. Install crowbar and then cd to the wordlists directory.<br>
+  ![36  kali crowbar install](https://github.com/user-attachments/assets/c4ec0237-466f-4612-8282-96739fa22ea5)<br>
+*Ref 37: Install Crowbar*<br>
+  ![37  kali cd wordlists](https://github.com/user-attachments/assets/6024bb50-5523-4c2e-9078-110e0eb7c9fe)<br>
+*Ref 38: Cd wordlists*<br>
+29. Extract rockyou and copy it to the new directory.<br>
+  ![38  kali exract rockyou](https://github.com/user-attachments/assets/1d6f48a6-193c-4e8e-9fda-a9e12f94dbe7)<br>
+*Ref 39: Exctract rockyou*<br>
+  ![39  Kali rockyou copy](https://github.com/user-attachments/assets/e67c5659-81fb-45bf-be26-4adaf9f02d00)<br>
+*Ref 40: Copy rockyou*<br>
+30. Using the first 20 lines in the rockyou.txt output those out to a passwords.txt file then edit passwords.txt to add the password of the target machine.<br>
+  ![40  kali first 20 rockyou](https://github.com/user-attachments/assets/3d444552-411c-4bc9-b169-978fddcf8e87)<br>
+*Ref 41: First 20 lines rockyou*<br>
+  ![41  kali output rockyou 20 to new file](https://github.com/user-attachments/assets/32b76c20-2d5b-4956-965d-ca38f12f9dc2)<br>
+*Ref 42: Rockyou output to passwords.txt*<br>
+  ![42  kali password txt edit](https://github.com/user-attachments/assets/33b519e3-3e13-4b41-a8ff-1e42873478dc)<br>
+*Ref 43: Passwords.txt edit*<br>
+
