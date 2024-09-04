@@ -138,4 +138,13 @@ The Detection Lab project aimed to establish a controlled environment for simula
 *Ref 42: Rockyou output to passwords.txt*<br>
   ![42  kali password txt edit](https://github.com/user-attachments/assets/33b519e3-3e13-4b41-a8ff-1e42873478dc)<br>
 *Ref 43: Passwords.txt edit*<br>
-
+31. Go to the Windows 10 target machine and enable RDP under properties in PC > then advanced system settings > remote tab. Click "Allow remote connections" > click select users > click add > add your users.<br>
+  ![43  win target RDP users](https://github.com/user-attachments/assets/9ff9cc9b-aeae-4d13-8d7b-89b50f5a6ee9)<br>
+*Ref 44: Windows target RDP users*<br>
+32. Back on the Kali machine check help with crowbar -h on using the crowbar brute force tool.<br>
+  ![44  kali crowbar -h](https://github.com/user-attachments/assets/5c2926d5-fa5b-4439-ab08-27227df8585b)<br>
+*Ref 45: Kali crowbar -h*<br>
+33. Crowbar -b signals brute force through RDP, -u to enter the target user, -C for the specified password list, and -s to enter the source IP.<br>
+  ![45  kali start bruteforce](https://github.com/user-attachments/assets/a264de3b-88cb-41a9-a21d-7b15a84d0f9c)<br>
+*Ref 46: Start brute force*<br>
+34. 
