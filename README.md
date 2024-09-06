@@ -1,23 +1,51 @@
 # Active-Directory
 
 ## Objective
+
 Set up an Active Directory (AD) monitoring home lab with telemetry collection by deploying a Windows Server environment to generate and analyze real-time AD telemetry data for detecting and responding to security events, enhancing incident detection, and response capabilities. The setup will be tested using a Kali Linux crowbar attack to enhance incident detection and response capabilities
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Active Directory (AD) Administration:
+    + Setting up and managing a Windows Server environment.
+    + Configuring and managing AD services, users, groups, and permissions.
+
+- Security Monitoring and Telemetry Collection:
+    + Implementing telemetry collection tools and monitoring solutions for Active Directory.
+    + Understanding various types of logs (e.g., security, event) and how to analyze them for suspicious activity.
+
+- Incident Detection and Response:
+    + Identifying indicators of compromise (IoCs) and patterns in AD telemetry data.
+    + Developing and enhancing incident detection and response capabilities for AD environments.
+
+- Offensive Security and Penetration Testing:
+    + Conducting penetration testing using Kali Linux and tools like Crowbar to simulate real-world attack scenarios.
+    + Understanding common attack vectors against AD, such as brute force, credential stuffing, and password spraying.
+
+- Threat Hunting and Analysis:
+    + Gaining skills in threat hunting within AD environments by identifying and analyzing suspicious behaviors.
+    + Correlating telemetry data from various sources to uncover hidden threats.
+
+- Networking and Systems Administration:
+    + Managing network configurations, firewalls, and routing in a virtual lab environment.
+    + Understanding the interaction between systems, networks, and AD services.
+
+- Scripting and Automation:
+    + Using PowerShell and other scripting languages to automate AD monitoring, alerting, and response actions.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Windows Server 2022: Set up as the AD Domain Controller for managing user accounts, groups, policies, and generating security logs.
+- Sysmon (System Monitor): Provides detailed logging of system activity, including process creation, network connections, and file integrity changes.
+- Splunk: Used for ingesting, parsing, visualizing, and analyzing logs and telemetry data from the AD environment.
+- Kali Linux: A penetration testing distribution used for simulating various attack scenarios against the AD environment.
+- Crowbar: A brute force tool for testing AD account credentials through SSH, RDP, and other protocols.
+- PowerShell: Used for monitoring and responding to security events in AD.
+- Oracle VirtualBox: Virtualization platform for creating and managing multiple virtual machines (VMs) in the lab setup.
+- Ubuntu Server: As a logging or utility server.
+- Windows 10: For testing and endpoint simulation.
+- Atomic Red Team: For executing simulated attack techniques.
+- Splunk Universal Forwarder: For collecting and forwarding telemetry data.
 
 ## Steps
 1. Create a diagram on <a href="https://Draw.io"> Draw.io</a>
