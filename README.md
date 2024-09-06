@@ -1,9 +1,7 @@
 # Active-Directory
 
 ## Objective
-[Brief Objective - Remove this afterwards]
-
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Set up an Active Directory (AD) monitoring home lab with telemetry collection by deploying a Windows Server environment to generate and analyze real-time AD telemetry data for detecting and responding to security events, enhancing incident detection, and response capabilities. The setup will be tested using a Kali Linux crowbar attack to enhance incident detection and response capabilities
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
